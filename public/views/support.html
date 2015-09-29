@@ -1,0 +1,13 @@
+<div>
+  <h1 class = 'title'>TextSupport</h1>
+  <h2>Tickets</h2>
+  <div class = 'main-content' ng-repeat= "(key, values) in numbers">
+    <h3 class = 'phoneInfo'>{{key}}</h3>
+    <div class = 'info-container' ng-repeat = "(id, message) in values">
+    <p class = 'date'>{{message.date_sent}}</p>
+    <p class = 'messageBody'>{{message.body}}</p>
+  </div>
+  </div>
+<input ng-model = 'replyText' Placeholder = 'Reply here'>
+</input><button ng-click = "sendMessage(key, replyText)">Send</button>
+</div>

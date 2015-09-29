@@ -1,0 +1,26 @@
+{
+  "name": "text-support",
+  "version": "1.0.0",
+  "description": "TextSupport ===========",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bryanschauerte/TextSupport.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bryanschauerte/TextSupport/issues"
+  },
+  "homepage": "https://github.com/Bryanschauerte/TextSupport#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "firebase": "^2.3.0",
+    "twilio": "^2.4.0"
+  }
+}
